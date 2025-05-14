@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+  
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/35.jpg); 
+    background-position: center;
+    background-size: cover; 
+}
+
+
+
+.form{
+   	margin-top: 6%;
+	margin-left: 33vh;
+	width: 57%;
+    height: 80%;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	transform: translate(0%,-5%);
+    border-radius: 10px;
+    }
+
+.form h1{
+		color: #ff8c00;
+}
+
+.form p{
+		color: #FFFFFF;
+}
+
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background: #ff7200;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+}
+
+.cancelbtn, .signupbtn {
+	float: left;
+	width: 15%;
+	color: #000;
+	font-weight: bold;
+	transition: .3s ease;
+}
+
+.cancelbtn:hover{
+    background-color: #fff;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+.notes {
+	font-family: "Comic Sans MS", cursive;
+	font-size: small;
+	color: #F00;
+}
+
+.form .container .note2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: x-large;
+	color: #0F0;
+}
+
+.form .container h4 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+.form .container h5 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.ii{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+</style>
+<body>
+
+
+<div class="form">
+  <div class="container">
+    <h1>Book a ticket Online !!</h1>
+    <p>Save time, buy your tickets online.</p>
+    <hr>
+
+    <h2>
+    <p><span class="notes">A date on the calendar is hatched when there is no e-ticket available. However some additional availability can show again, especially for the stairs tickets to the second floor which are available online on a D-14 basis.
+    Purchase is always possible at the Tower on the day of your visit for immediate use.</span></p></h2>
+    <p><h3 class="note2">When do you want to visit the Eiffel Tower ?</h3>
+    <p>
+    <h4>Schedules Cheak :-</p>
+    <label for="Username">
+      </b></label>
+      <input type="text" placeholder="Enter Your visiting Date" name="Username" required><br>
+      <input name="Search" type="submit" class="cancelbtn" id="Search" value="Search">
+    </h4><br>
+    <h5>Ticket Type :- </h5>
+    <form name="form1" method="post" action="">
+      <p>
+        <label>
+          <input type="checkbox" name="Ticket Type" value="checkbox" id="TicketType_0">
+          Tickets for individuals</label>
+        <br>
+        <label>
+          <input type="checkbox" name="Ticket Type" value="checkbox" id="TicketType_1">
+          Tickets for professionals</label>
+        <br>
+      </p>
+	 
+	 
+	 <h5>Payment method :- </h5>
+    <form name="form1" method="post" action=""> 
+	   <p>
+        <label>
+          <input type="checkbox" name="Ticket Type" value="checkbox" id="TicketType_0">
+          Debit/ Credit Card</label> <label>
+          <input type="checkbox" name="Ticket Type" value="checkbox" id="TicketType_1">
+          Paypal</label>
+        <br>
+      </p>
+	  
+    </form>
+    
+    
+    
+    
+    
+    <div class="clearfix">
+      <button type="submit" class="submitbtn"><a class="ii" href="Payment.html">Payment Now</a></button>
+    </div>
+  </div>
+</form>
+</div>
+
+</body>
+</html>
